@@ -1,0 +1,29 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "01-node-basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "start:dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dimail0880/NodeJS-home-works.git"
+  },
+  "author": "dimail0880",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dimail0880/NodeJS-home-works/issues"
+  },
+  "homepage": "https://github.com/Dimail0880/NodeJS-home-works#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "yargs": "^15.3.1"
+  },
+  "dependencies": {
+    "koa": "^2.13.0",
+    "yargs": "^15.3.1"
+  }
+}
